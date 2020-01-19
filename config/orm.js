@@ -90,5 +90,5 @@ function printQuestionMarks(num) {
     }
   };
 
-// Export the orm object for the model (burger.js).
+// Export the orm object for the model (taco.js).
 module.exports = orm;

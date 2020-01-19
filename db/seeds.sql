@@ -1,3 +1,3 @@
-INSERT INTO burger (burger_name) VALUES ("Chile-Cheeseburger");
-INSERT INTO burger (burger_name) VALUES ("Chicken Turkey Burger");
-INSERT INTO burger (burger_name) VALUES ("Black Bean Burger");
+INSERT INTO tacos (taco_name) VALUES ("Trailer Park Taco");
+INSERT INTO tacos (taco_name) VALUES ("Potato, Egg, & Cheese Taco");
+INSERT INTO tacos (taco_name) VALUES ("Chicken Fajita Taco");

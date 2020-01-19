@@ -8,7 +8,7 @@ $(function() {
       };
   
       // Send the PUT request.
-      $.ajax("/api/burgers/" + id, {
+      $.ajax("/api/tacos/" + id, {
         type: "PUT",
         data: newState
       }).then(
@@ -23,25 +23,20 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var name = $("[name=burger_name]").val().trim();
+      var newTaco = {
+        taco_name: $("#taco_name").val().trim()
+      };
 
-        if(name !== "") {
-            var newBurger = {
-                name: name
-            };
-  
       // Send the POST request.
-      $.ajax("/api/burgers", {
+      $.ajax("/api/tacos", {
         type: "POST",
-        data: newBurger
+        data: newTaco
       }).then(
         function() {
+          console.log(newTaco);
           // Reload the page to get the updated list
           location.reload();
         });
-    } else {
-        $("[name=burger_name]").val("");
-    }
     });
   
   });

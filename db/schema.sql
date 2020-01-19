@@ -1,15 +1,17 @@
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE burgers_db;
+DROP DATABASE IF EXISTS tacos_db;
+CREATE DATABASE tacos_db;
 
-USE burgers_db;
+USE tacos_db;
 
-CREATE TABLE burgers(
+CREATE TABLE tacos(
     id int NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR(255) NOT NULL,
+    taco_name VARCHAR(255) NOT NULL,
     devoured BOOLEAN DEFAULT false,
     PRIMARY KEY(id)
 );
 
-INSERT INTO burgers (burger_name) VALUES ("Chile-Cheeseburger");
-INSERT INTO burgers (burger_name) VALUES ("Chicken Turkey Burger");
-INSERT INTO burgers (burger_name) VALUES ("Black Bean Burger");
+INSERT INTO tacos (taco_name) VALUES ("Trailer Park Taco");
+INSERT INTO tacos (taco_name) VALUES ("Potato, Egg, & Cheese Taco");
+INSERT INTO tacos (taco_name) VALUES ("Chicken Fajita Taco");
+
+SELECT * FROM tacos

@@ -1,0 +1,114 @@
+body {
+    background-color: coral;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#not-devoured {
+    height: auto;
+    width: 280px;
+    float: left;
+    padding: 10px;
+    margin-left: 400px;
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+#devoured {
+    height: auto;
+    width: 200px;
+    float: left;
+    padding: 10px;
+    margin-left: 35px;
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+.create-form {
+    float: left;
+    margin-left: 580px;
+}
+
+button {
+    margin: 2px;
+}
+
+#taco_button {
+	background-color:#080508;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#fcf7fc;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font: 25px;
+	font-weight: bold;
+	font-style:normal;
+	height: 25px;
+	line-height: 25px;
+	width: 100px;
+	text-align:center;
+}
+
+#taco_button:hover {
+	background-color:#d68670;
+}
+
+#taco_button:active {
+	position:relative;
+    top:1px;
+}
+
+.change-devour {
+    background-color:#080508;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#fcf7fc;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font: 22px;
+	/* font-weight: bold; */
+	font-style:normal;
+	height: 25px;
+	line-height: 25px;
+	width: 75px;
+	text-align:center;
+}
+
+.row{
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.table-row {
+    background-color: rgb(230, 116, 71);
+}
+
+td {
+    padding: 3px;
+    
+}
+
+#dev-taco-name{
+    text-align: center;
+    background-color: rgb(230, 116, 71);
+    padding: 3px;
+}
