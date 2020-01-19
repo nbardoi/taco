@@ -9,9 +9,3 @@ CREATE TABLE tacos(
     devoured BOOLEAN DEFAULT false,
     PRIMARY KEY(id)
 );
-
-INSERT INTO tacos (taco_name) VALUES ("Trailer Park Taco");
-INSERT INTO tacos (taco_name) VALUES ("Potato, Egg, & Cheese Taco");
-INSERT INTO tacos (taco_name) VALUES ("Chicken Fajita Taco");
-
-SELECT * FROM tacos
